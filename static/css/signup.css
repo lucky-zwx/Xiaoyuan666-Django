@@ -1,0 +1,69 @@
+
+body{
+	padding-top: 60px;
+	background-size: cover;
+}
+#menulist {
+	margin: 0 auto;
+}
+.container-fluid {
+	z-index: 99;
+	position: absolute;
+}
+canvas#screen {
+	background: url(../img/bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+form {
+	width: 100%;
+}
+
+.name,.class,.phone_number {
+	display: block;
+	width: 93%;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 2px 25px;
+}
+
+textarea {
+	display: block;
+	width: 93%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.btn {
+	display: block;
+	margin: 20px auto;
+	width: 89%;
+}
+
+.select {
+	display: block;
+	width: 93%;
+	height: 50px;
+	border: 1px solid rgba(255,255,255,0.4);
+	margin: 0 auto;
+	border-radius: 4px;
+	background: rgba(255,255,255,0.5);
+	padding-left: 20px;
+	color: #c80426; 
+}
+
+option {
+	display: block;
+	height: 50px;
+	padding-left: 20px;
+	margin-top: 10px;
+	background: rgba(255,255,255,0.4);
+	color: black;
+}
+
+iframe {
+	display: block;
+	width: 93%;
+	height: 90px;
+	margin: 10px auto;
+}

@@ -1,0 +1,67 @@
+
+body {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	width: 100%;
+	height: 100%;
+}
+#screen {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    top: 0px;
+    left: 0px;
+}
+#textures, .textures {
+	visibility:hidden;
+}
+*{font-family:"微软雅黑";}
+.jsgrid-row>.jsgrid-cell {
+    border-color: transparent !important;
+	background: transparent !important;
+}
+.jsgrid-alt-row>.jsgrid-cell {
+    border-color: transparent !important;
+	background: rgba(162,162,162,0.1) !important;
+}
+.jsgrid-selected-row>.jsgrid-cell {
+    border-color: transparent !important;
+	background: rgba(25,140,228,0.2) !important;
+}
+.jsgrid-cell {
+    background: transparent !important;
+}
+.jsgrid-grid-header {
+    border-color: transparent !important;
+	background: transparent !important;
+}
+.jsgrid-header-row>.jsgrid-header-cell {
+    border-color: transparent !important;
+	background: transparent !important;
+}
+.jsgrid-filter-row>.jsgrid-cell {
+    border-color: transparent !important;
+	background: transparent !important;
+}
+.jsgrid-grid-body {
+    -webkit-overflow-scrolling: auto !important;
+    border: 0px !important;
+}
+.jsgrid-grid-header {
+    border: 0px !important;
+}
+.jsgrid-header-row>.jsgrid-header-cell{
+    border-color: transparent !important;
+}
+td th tr {
+    border-color: transparent !important;
+}
+input {
+    background: transparent;
+    border: solid 1px rgba(162,162,162,0.1) !important;
+}
+input:hover {
+    border: solid 1px rgba(25,140,228,1) !important;
+}
